@@ -1,0 +1,14 @@
+<form action="">
+  <select name="actorsList" id="select" [(ngModel)]="selectedOption">
+    <option value="" selected>Select an actor</option>
+    <option [value]="actor.username" *ngFor="let actor of actorsList">
+      {{ actor.username }}
+    </option>
+  </select>
+  <button
+    [routerLink]="['/actors', selectedOption]"
+    [disabled]="!selectedOption"
+  >
+    <img src="assets/searchBtn.png" alt="" />
+  </button>
+</form>

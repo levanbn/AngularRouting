@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "username": "kote kirkita",
+    "firstName": "kote",
+    "lastName": "kirkita",
+    "aboutMe": "kote kirkita programmer"
+  },
+  {
+    "id": 2,
+    "username": "giorgi bazera",
+    "firstName": "giorgi",
+    "lastName": "bazera",
+    "aboutMe": "giorgi bazera programmer"
+  },
+  {
+    "id": 3,
+    "username": "beso shavwvera",
+    "firstName": "beso",
+    "lastName": "shavwvera",
+    "aboutMe": "beso shavwvera programmer"
+  },
+  {
+    "id": 4,
+    "username": "beru beru",
+    "firstName": "beru",
+    "lastName": "beru",
+    "aboutMe": "beru programmer"
+  }
+]
