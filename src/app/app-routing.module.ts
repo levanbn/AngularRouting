@@ -1,16 +1,21 @@
-import { UsersInfoComponent } from './info/users-info/users-info.component';
+import { InfoComponent } from './info/info.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { UsersComponent } from './info/users.component';
+import { SearchComponent } from './search/search.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
   {
-    path: 'users',
-    component:UsersComponent,
+    path: '',
+    component:SearchComponent,
   },
   {
-    path: 'users-info',
-    component:UsersInfoComponent,
+    path: 'actors/:username',
+    component:InfoComponent,
+  },
+  {
+    path: '**',
+    component: NotFoundComponent,
   },
 ];
 
